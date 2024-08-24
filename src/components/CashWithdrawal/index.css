@@ -1,0 +1,135 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  border-radius: 16px;
+  background-color: #150b3e;
+  width: 80%;
+  font-family: 'Roboto';
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 24px;
+  padding-bottom: 8px;
+  max-width: 350px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 50%;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 48px;
+    padding-bottom: 16px;
+    max-width: 422px;
+  }
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+}
+
+.initial-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  width: 48px;
+  border-radius: 24px;
+  background-color: #c7d2fe;
+}
+
+@media screen and (min-width: 768px) {
+  .initial-container {
+    height: 64px;
+    width: 64px;
+    border-radius: 32px;
+  }
+}
+
+.initial {
+  color: #7c3aed;
+  font-size: 14px;
+}
+
+.name {
+  color: #d4d2db;
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .name {
+    font-size: 20px;
+    margin-left: 16px;
+  }
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.balance-text {
+  color: #585076;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .balance-text {
+    font-size: 20px;
+    margin-top: 8px;
+  }
+}
+
+.balance-text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.balance-amount {
+  color: #d4d2db;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .balance-amount {
+    font-size: 32px;
+  }
+}
+
+.balance-in-rupees-text {
+  margin-top: 0px;
+  color: #585076;
+  font-size: 12px;
+}
+
+.title {
+  color: #d4d2db;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.choose-sum-text {
+  color: #585076;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.withraw-container {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
